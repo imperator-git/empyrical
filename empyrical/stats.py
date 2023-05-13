@@ -579,6 +579,7 @@ def calmar_ratio(returns, period=DAILY, annualization=None):
     -----
     See https://en.wikipedia.org/wiki/Calmar_ratio for more details.
     """
+    print("!!! I was here !!!)
     return np.nan
     max_dd = min(max_drawdown(returns=returns))
     if max_dd < 0:
